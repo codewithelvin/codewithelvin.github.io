@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ── Base font ── */
+body {
+  font-family: 'Montserrat', ui-sans-serif, system-ui, sans-serif;
+  -webkit-font-smoothing: subpixel-antialiased;
+  overflow-x: hidden;
+}
+
+/* ── A4 Print Optimization ── */
+@media print {
+  @page {
+    size: A4;
+    margin: 1cm 0;
+  }
+
+  body {
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+
+  /* Ensure background colours & images render in print */
+  * {
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+}
