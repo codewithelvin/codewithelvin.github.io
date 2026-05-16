@@ -22,9 +22,28 @@ export default function Header({ name, avatarUrl, positions, contacts }) {
         {/* Contact Info */}
         {contacts && (
           <div className="text-left sm:text-right text-sm3 text-gray-650 mt-2 sm:mt-0 sm:ml-auto">
-            {contacts.map((contact, i) => (
-              <div key={i} className="leading-normal">{contact}</div>
-            ))}
+            {contacts.map((contact, i) => {
+              let href = '';
+              if (contact.includes('@')) {
+                href = `mailto:${contact}`;
+              } else if (contact.match(/^\+?[0-9\s-()]+$/)) {
+                href = `tel:${contact.replace(/[\s-()]/g, '')}`;
+              } else if (contact.includes('.') || contact.includes('/')) {
+                href = contact.startsWith('http') ? contact : `https://${contact}`;
+              }
+
+              return (
+                <div key={i} className="leading-normal">
+                  {href ? (
+                    <a href={href} className="hover:text-gray-800 transition-colors">
+                      {contact}
+                    </a>
+                  ) : (
+                    contact
+                  )}
+                </div>
+              );
+            })}
           </div>
         )}
       </div>

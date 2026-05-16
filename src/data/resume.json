@@ -5,7 +5,9 @@
     "positions": "Software Developer",
     "contacts": [
       "codewithelvin@gmail.com",
-      "+994 55 804-34-84"
+      "+994 55 804-34-84",
+      "github.com/codewithelvin",
+      "linkedin.com/in/elvinihuseynov"
     ]
   },
   "aboutMe": [
@@ -22,7 +24,7 @@
       "company": "Cybernet LLC",
       "period": "January 2022 - Present",
       "role": "Front-end Developer",
-      "description": "Lead developer for multiple large-scale government and financial projects. Key projects include the Internet Tax Administration (e-Portal), VAT Bank System, and MDM (Master Data Management)."
+      "description": "Lead developer for multiple large-scale government and financial projects. Key projects include the Internet Tax Administration, VAT Bank System, and MDM."
     },
     {
       "company": "Cybernet LLC",
@@ -34,13 +36,13 @@
       "company": "Smart Bytes",
       "period": "August 2016 - November 2019 (3 years 3 months)",
       "role": "Co-Founder, CEO",
-      "description": "In 2016, I embarked on a remarkable journey founding a tech company, venturing into the competitive landscape alongside industry giants. During my tenure, my dedicated team and I achieved remarkable milestones, delivering two pivotal projects. We introduced an Online Educational Monitoring System for schools and implemented a Master Data Management solution for centralized data control across various systems."
+      "description": "In 2016, I founded a tech company and entered a highly competitive market alongside major industry players. Together with my team, we successfully delivered two key projects: an Online Educational Monitoring System for schools and a Master Data Management solution that centralized data across multiple systems."
     },
     {
       "company": "Qala Express",
       "period": "September 2011 - July 2016 (4 years 10 months)",
       "role": "Management Executive",
-      "description": "Over a period of five years, I embarked on a progressive journey from an Operations Manager to eventually becoming the Executive Director of a transportation company. My responsibilities encompassed overseeing a fleet of vehicles and a team of dedicated drivers. We specialized in delivering ad-hoc transportation services and providing exceptional guest meet-and-greet experiences for esteemed clients such as BP, Statoil, Amec, and others."
+      "description": "Over five years, I progressed from Operations Manager to Executive Director at a private transportation company. I managed a fleet of vehicles and a team of drivers, delivering ad-hoc transportation and guest meet-and-greet services for clients including BP, Statoil, and Amec."
     }
   ],
   "education": [
@@ -79,29 +81,33 @@
   ],
   "projects": [
     {
-      "name": "Internet Tax Administration",
-      "href": "https://new.e-taxes.gov.az/eportal/login/asan",
+      "name": "AVIS (Automated Tax Information System)",
       "period": "Present",
-      "tech": "React, TypeScript",
+      "tech": "React, TypeScript, Lerna, Monorepo",
+      "description": "Secured platform for state tax authorities."
+    },
+    {
+      "name": "Internet Tax Administration",
+      "href": "https://new.e-taxes.gov.az/eportal/login",
+      "period": "Present",
+      "tech": "React, Redux, ANT Design",
       "description": "A nationwide online tax system for taxpayers, featuring complex business logic."
     },
     {
       "name": "OnlineCV",
-      "href": "https://onlinecv.az",
-      "period": "Past",
-      "tech": "React",
+      "href": "https://web.archive.org/web/20260512190601/https://onlinecv.az/",
+      "period": "2019 - 2026",
+      "tech": "Next.js, TypeScript, NestJS, Docker",
       "description": "An online platform for creating free resumes with a wide range of customization options."
     },
     {
       "name": "VAT Bank System",
-      "period": "Past",
-      "tech": "Frontend Stack",
-      "description": "A system for managing exchange transactions through the Tax Authority."
+      "period": "2021",
+      "description": "A system for managing exchange transactions through the Tax Authority and banks."
     },
     {
       "name": "MDM",
-      "period": "Past",
-      "tech": "Frontend Stack",
+      "period": "2016 - 2018",
       "description": "A Master Data Management system for centralizing enterprise data."
     }
   ],
@@ -114,15 +120,11 @@
         "JavaScript",
         "TypeScript",
         "Java",
-        "Python",
-        "Go",
-        "Rust",
-        "Kotlin",
         "SQL"
       ]
     },
     {
-      "skill": "Frontend Dev",
+      "skill": "Frontend",
       "level": "Senior",
       "description": "Building complex, scalable, and responsive user interfaces.",
       "tags": [

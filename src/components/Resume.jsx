@@ -76,18 +76,18 @@ export default function Resume() {
 
         <Divider />
 
-        <div className="md:col-count-2 print:col-count-2 col-gap-md col-fill-auto">
-
-          <Section title="PROJECTS" icon={<FolderIcon />}>
-            {resumeData.projects.map((project, index) => (
-              <ProjectItem key={index} {...project} />
+        <div className="md:col-count-2 print:col-count-1 print:block col-gap-md col-fill-auto">
+          <Section title="SKILLS" icon={<SparklesIcon />}>
+            {resumeData.skills.map((skillGroup, index) => (
+              <SkillGroup key={index} {...skillGroup} />
             ))}
           </Section>
 
-          <div className="break-before-col">
-            <Section title="SKILLS" icon={<SparklesIcon />}>
-              {resumeData.skills.map((skillGroup, index) => (
-                <SkillGroup key={index} {...skillGroup} />
+
+          <div className="break-before-col print:break-before-auto">
+            <Section title="PROJECTS" icon={<FolderIcon />}>
+              {resumeData.projects.map((project, index) => (
+                <ProjectItem key={index} {...project} />
               ))}
             </Section>
           </div>
