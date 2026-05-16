@@ -7,7 +7,7 @@ export default function Header({ name, avatarUrl, positions, contacts }) {
         <img
           src={avatarUrl}
           alt={name}
-          className="w-16 h-16 rounded-full object-cover mr-5 shrink-0 print:border print:border-gray-300"
+          className="w-24 h-24 rounded-full object-cover mr-5 shrink-0 print:border print:border-gray-300"
         />
       )}
 
@@ -16,7 +16,7 @@ export default function Header({ name, avatarUrl, positions, contacts }) {
         {/* Name and Positions */}
         <div className="text-left">
           <h1 className="text-2xl font-semibold text-gray-750 pb-px">{name}</h1>
-          {positions && <p className="text-md text-gray-650 mt-1">{positions}</p>}
+          {positions && <p className="text-md text-gray-650">{positions}</p>}
         </div>
 
         {/* Contact Info */}

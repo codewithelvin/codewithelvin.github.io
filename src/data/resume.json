@@ -1,0 +1,177 @@
+{
+  "header": {
+    "name": "Elvin Huseynov",
+    "avatarUrl": "https://www.gravatar.com/avatar/8c068866903940f6d81b3a4242f31332?s=400",
+    "positions": "Software Developer",
+    "contacts": [
+      "codewithelvin@gmail.com",
+      "+994 55 804-34-84"
+    ]
+  },
+  "aboutMe": [
+    {
+      "title": "Front-end Developer",
+      "period": "Since 2017",
+      "paragraphs": [
+        "Based in Azerbaijan 🇦🇿, I am an experienced Front-end Developer with a strong background in crafting engaging and responsive user interfaces. Proficient in a range of web technologies, I am dedicated to delivering visually appealing and user-friendly web applications that enhance the user experience and drive business growth."
+      ]
+    }
+  ],
+  "experience": [
+    {
+      "company": "Cybernet LLC",
+      "period": "January 2022 - Present",
+      "role": "Front-end Developer",
+      "description": "Lead developer for multiple large-scale government and financial projects. Key projects include the Internet Tax Administration (e-Portal), VAT Bank System, and MDM (Master Data Management)."
+    },
+    {
+      "company": "Cybernet LLC",
+      "period": "December 2019 - December 2021 (2 years 1 month)",
+      "role": "Project Manager",
+      "description": "As a Project Manager, I successfully led and managed a dynamic team of over 50 talented developers, testers, and analysts. Our primary focus was the conceptualization, design, and implementation of a cutting-edge Tax System aimed at simplifying and optimizing the tax payment process for taxpayers."
+    },
+    {
+      "company": "Smart Bytes",
+      "period": "August 2016 - November 2019 (3 years 3 months)",
+      "role": "Co-Founder, CEO",
+      "description": "In 2016, I embarked on a remarkable journey founding a tech company, venturing into the competitive landscape alongside industry giants. During my tenure, my dedicated team and I achieved remarkable milestones, delivering two pivotal projects. We introduced an Online Educational Monitoring System for schools and implemented a Master Data Management solution for centralized data control across various systems."
+    },
+    {
+      "company": "Qala Express",
+      "period": "September 2011 - July 2016 (4 years 10 months)",
+      "role": "Management Executive",
+      "description": "Over a period of five years, I embarked on a progressive journey from an Operations Manager to eventually becoming the Executive Director of a transportation company. My responsibilities encompassed overseeing a fleet of vehicles and a team of dedicated drivers. We specialized in delivering ad-hoc transportation services and providing exceptional guest meet-and-greet experiences for esteemed clients such as BP, Statoil, Amec, and others."
+    }
+  ],
+  "education": [
+    {
+      "school": "Baku Eurasian University",
+      "period": "2006 – 2010",
+      "degree": "Bachelor's Degree",
+      "description": ""
+    }
+  ],
+  "certificates": [
+    {
+      "name": "Advanced JavaScript Concepts",
+      "issuer": "Coursera",
+      "period": "Apr 2025",
+      "description": "Credential ID: 1SXN8BQDSG3D"
+    },
+    {
+      "name": "Modern JavaScript: Iterators and Generators",
+      "issuer": "Coursera",
+      "period": "Apr 2025",
+      "description": "Credential ID: WZ4FK82Z9A19"
+    },
+    {
+      "name": "The Complete Web Developer in 2021: Zero to Mastery",
+      "issuer": "Udemy",
+      "period": "2021",
+      "description": ""
+    },
+    {
+      "name": "Computer Science: Programming with a Purpose",
+      "issuer": "Coursera",
+      "period": "Completed",
+      "description": ""
+    }
+  ],
+  "projects": [
+    {
+      "name": "Internet Tax Administration",
+      "href": "https://new.e-taxes.gov.az/eportal/login/asan",
+      "period": "Present",
+      "tech": "React, TypeScript",
+      "description": "A nationwide online tax system for taxpayers, featuring complex business logic."
+    },
+    {
+      "name": "OnlineCV",
+      "href": "https://onlinecv.az",
+      "period": "Past",
+      "tech": "React",
+      "description": "An online platform for creating free resumes with a wide range of customization options."
+    },
+    {
+      "name": "VAT Bank System",
+      "period": "Past",
+      "tech": "Frontend Stack",
+      "description": "A system for managing exchange transactions through the Tax Authority."
+    },
+    {
+      "name": "MDM",
+      "period": "Past",
+      "tech": "Frontend Stack",
+      "description": "A Master Data Management system for centralizing enterprise data."
+    }
+  ],
+  "skills": [
+    {
+      "skill": "Languages",
+      "level": "Expertise",
+      "description": "Core programming paradigms and object-oriented concepts.",
+      "tags": [
+        "JavaScript",
+        "TypeScript",
+        "Java",
+        "Python",
+        "Go",
+        "Rust",
+        "Kotlin",
+        "SQL"
+      ]
+    },
+    {
+      "skill": "Frontend Dev",
+      "level": "Senior",
+      "description": "Building complex, scalable, and responsive user interfaces.",
+      "tags": [
+        "React",
+        "Next.js",
+        "Redux",
+        "TailwindCSS",
+        "Vue",
+        "Angular",
+        "Svelte"
+      ]
+    },
+    {
+      "skill": "Backend & Tools",
+      "level": "Experienced",
+      "description": "Developing APIs and deploying applications.",
+      "tags": [
+        "Node.js",
+        "Nest.js",
+        "PostgreSQL",
+        "Spring Boot",
+        "Git",
+        "Docker",
+        "CI/CD",
+        "Nginx"
+      ]
+    },
+    {
+      "skill": "Leadership & Languages",
+      "level": "Professional",
+      "description": "Leading development teams and multilingual communication.",
+      "tags": [
+        "IT Leadership",
+        "Team Management",
+        "English (C1)",
+        "Russian (C1)",
+        "German (A1)",
+        "Azerbaijani (Native)"
+      ]
+    }
+  ],
+  "contact": [
+    {
+      "label": "github.com/codewithelvin",
+      "href": "https://github.com/codewithelvin"
+    },
+    {
+      "label": "linkedin.com/in/elvinihuseynov",
+      "href": "https://www.linkedin.com/in/elvinihuseynov"
+    }
+  ]
+}

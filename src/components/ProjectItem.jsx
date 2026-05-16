@@ -15,7 +15,7 @@ export default function ProjectItem({ name, href, period, tech, description, ext
           )}
         </h3>
         <p className="leading-normal text-md text-gray-650">
-          {period} | {tech}
+          <span className="italic font-medium text-gray-550">{period}</span> | {tech}
         </p>
       </header>
 

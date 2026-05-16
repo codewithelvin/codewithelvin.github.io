@@ -6,7 +6,10 @@ export default function ExperienceItem({ company, period, role, description, bul
           {company}
         </h3>
         <p className="leading-normal text-md text-gray-650">
-          {period} | {role}
+          <span className="italic font-medium text-gray-550">{role}</span>
+        </p>
+        <p className="leading-normal text-md text-gray-650">
+          <span className="italic  text-gray-550">{period}</span>
         </p>
       </header>
 
