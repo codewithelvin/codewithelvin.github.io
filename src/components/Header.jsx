@@ -7,6 +7,8 @@ export default function Header({ name, avatarUrl, positions, contacts }) {
         <img
           src={avatarUrl}
           alt={name}
+          width="96"
+          height="96"
           className="w-24 h-24 rounded-full object-cover mr-5 shrink-0 print:border print:border-gray-300"
         />
       )}
@@ -21,7 +23,7 @@ export default function Header({ name, avatarUrl, positions, contacts }) {
 
         {/* Contact Info */}
         {contacts && (
-          <div className="text-left sm:text-right text-sm3 text-gray-650 mt-2 sm:mt-0 sm:ml-auto">
+          <div className="text-left sm:text-right text-sm text-gray-650 mt-3 sm:mt-0 sm:ml-auto space-y-1">
             {contacts.map((contact, i) => {
               let href = '';
               if (contact.includes('@')) {
@@ -33,13 +35,18 @@ export default function Header({ name, avatarUrl, positions, contacts }) {
               }
 
               return (
-                <div key={i} className="leading-normal">
+                <div key={i} className="leading-normal py-0.5">
                   {href ? (
-                    <a href={href} className="hover:text-gray-800 transition-colors">
+                    <a
+                      href={href}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="inline-block py-0.3 hover:text-gray-800 transition-colors"
+                    >
                       {contact}
                     </a>
                   ) : (
-                    contact
+                    <span className="inline-block py-0.3">{contact}</span>
                   )}
                 </div>
               );
