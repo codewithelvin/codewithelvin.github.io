@@ -31,13 +31,13 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: 20
+          node-version: 24
           cache: "npm"
 
-      - name: Update stats
-        run: |
-          npm run update-stats -- --leetcode codewithelvin
-          npm run update-stats -- --goodreads 182585034
+      # - name: Update stats
+      #   run: |
+      #     npm run update-stats -- --leetcode codewithelvin
+      #     npm run update-stats -- --goodreads 182585034
 
       - name: Install dependencies
         run: npm install
