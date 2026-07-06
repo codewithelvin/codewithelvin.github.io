@@ -7,7 +7,8 @@
     "dev": "vite --port 3000 --host 0.0.0.0",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "update-stats": "node scripts/update-stats.js"
   },
   "dependencies": {
     "react": "^19.2.6",
