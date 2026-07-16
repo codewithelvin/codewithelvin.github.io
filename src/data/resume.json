@@ -55,8 +55,14 @@
   ],
   "certificates": [
     {
+      "name": "Java Programming: Solving Problems with Software",
+      "issuer": "Duke University",
+      "period": "Jul 2026",
+      "description": "Credential ID: PR456LIF99UL"
+    },
+    {
       "name": "Advanced JavaScript Concepts",
-      "issuer": "Coursera",
+      "issuer": "Packt",
       "period": "Apr 2025",
       "description": "Credential ID: 1SXN8BQDSG3D"
     },
@@ -74,8 +80,8 @@
     },
     {
       "name": "Computer Science: Programming with a Purpose",
-      "issuer": "Coursera",
-      "period": "Completed",
+      "issuer": "Princeton University",
+      "period": "2025",
       "description": ""
     }
   ],
