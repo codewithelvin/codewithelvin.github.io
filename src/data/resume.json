@@ -93,6 +93,13 @@
       "description": "Secured platform for state tax authorities."
     },
     {
+      "name": "Casio Vault",
+      "href": "https://casiovault.com",
+      "period": "Present",
+      "tech": "React, TypeScript, TailwindCSS, Node.js",
+      "description": "A modern digital vault platform for secure document and asset management."
+    },
+    {
       "name": "Internet Tax Administration",
       "href": "https://new.e-taxes.gov.az/eportal/login",
       "period": "Present",
@@ -100,11 +107,18 @@
       "description": "A nationwide online tax system for taxpayers, featuring complex business logic."
     },
     {
-      "name": "OnlineCV",
-      "href": "https://web.archive.org/web/20260512190601/https://onlinecv.az/",
+      "name": "Online CV",
+      "href": "https://onlinecv.az",
       "period": "2019 - 2026",
       "tech": "Next.js, TypeScript, NestJS, Docker",
-      "description": "An online platform for creating free resumes with a wide range of customization options."
+      "description": "An online platform for creating professional resumes and CVs with customizable templates."
+    },
+    {
+      "name": "Confluence DC Connector",
+      "href": "https://community.obsidian.md/plugins/confluence-dc-connector",
+      "period": "2024 - Present",
+      "tech": "TypeScript, Obsidian Plugin, Atlassian API",
+      "description": "A plugin that connects Obsidian to Atlassian Confluence for document and content syncing."
     },
     {
       "name": "VAT Bank System",
@@ -119,26 +133,36 @@
   ],
   "skills": [
     {
-      "skill": "Languages",
-      "description": "Core programming paradigms and object-oriented concepts.",
-      "tags": ["JavaScript", "TypeScript", "Java", "SQL"]
+      "skill": "Languages & Core Skills",
+      "description": "Modern web and application development with strong programming fundamentals.",
+      "tags": [
+        "JavaScript",
+        "TypeScript",
+        "Java",
+        "Python",
+        "SQL",
+        "REST APIs",
+        "System Design"
+      ]
     },
     {
       "skill": "Frontend",
-      "description": "Building complex, scalable, and responsive user interfaces.",
+      "description": "Building scalable, responsive, and user-centric interfaces for modern products.",
       "tags": [
         "React",
         "Next.js",
         "Redux",
         "TailwindCSS",
+        "HTML5",
+        "CSS3",
         "Vue",
         "Angular",
         "Svelte"
       ]
     },
     {
-      "skill": "Backend & Tools",
-      "description": "Developing APIs and deploying applications.",
+      "skill": "Backend & DevOps",
+      "description": "Designing APIs, services, and deployment pipelines for production-grade platforms.",
       "tags": [
         "Node.js",
         "Nest.js",
@@ -147,15 +171,32 @@
         "Git",
         "Docker",
         "CI/CD",
-        "Nginx"
+        "Nginx",
+        "Microservices",
+        "API Integration"
+      ]
+    },
+    {
+      "skill": "AI & Automation",
+      "description": "Integrating AI capabilities into business workflows and modern developer tooling.",
+      "tags": [
+        "Generative AI",
+        "LLM Integration",
+        "Prompt Engineering",
+        "OpenAI API",
+        "AI Workflow Automation",
+        "RAG",
+        "Python Automation",
+        "AI Product Development"
       ]
     },
     {
       "skill": "Leadership & Languages",
-      "description": "Leading development teams and multilingual communication.",
+      "description": "Leading teams and communicating effectively in global technology environments.",
       "tags": [
         "IT Leadership",
         "Team Management",
+        "Project Delivery",
         "English (C1)",
         "Russian (C1)",
         "German (A1)",
